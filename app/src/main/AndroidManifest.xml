@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrainNotebook">
         <activity
+            android:name=".train.ChooseExercise"
+            android:exported="false" />
+        <activity
+            android:name=".train.StartTrain"
+            android:exported="false" />
+        <activity
             android:name=".NewExercise"
             android:exported="false" />
         <activity

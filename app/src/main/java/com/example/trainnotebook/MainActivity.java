@@ -3,11 +3,9 @@ package com.example.trainnotebook;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.icu.text.DisplayContext;
 import android.os.Bundle;
-import android.view.View;
 
-import com.example.trainnotebook.Database.DatabaseManager;
+import com.example.trainnotebook.train.StartTrain;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.button_start_train).setOnClickListener(view -> {
-
+            Intent exercises = new Intent(this, StartTrain.class);
+            startActivity(exercises);
         });
 
         findViewById(R.id.button_exercises).setOnClickListener(view -> {

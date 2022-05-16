@@ -2,6 +2,8 @@ package com.example.trainnotebook;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -42,6 +44,7 @@ public class NewExercise extends AppCompatActivity {
             Exercise ex = new Exercise(name, description, unit, time);
             if(ex.is_correct()){
                 db_manager.AddExercise(ex);
+                finish();
             }
         });
     }

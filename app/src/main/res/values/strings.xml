@@ -16,4 +16,6 @@
     <string name="choose_units">Единицы измерения:</string>
     <string name="choose_time">Способ измерения:</string>
     <string name="exercise_description">Описание упражнения</string>
+    <string name="choose_exercise">Выбрать</string>
+    <string name="finish">Завершить</string>
 </resources>

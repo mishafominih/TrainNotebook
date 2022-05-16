@@ -7,8 +7,10 @@
     tools:context=".Exercises">
 
     <ListView
+        android:id="@+id/layout_all_exercises"
         android:layout_width="match_parent"
-        android:layout_height="665dp" />
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="590dp" />
 
     <Button
         android:id="@+id/to_add_exercise_button"

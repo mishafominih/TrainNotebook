@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="1"
+        android:textColor="@color/black"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-14dp" />
+
+
+    <EditText
+        android:layout_width="50dp"
+        android:textColor="@color/black"
+        android:hint="Вес"
+        android:layout_height="20dp" />
+
+
+    <EditText
+        android:layout_width="50dp"
+        android:textColor="@color/black"
+        android:hint="Кол-во"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:textColor="@color/black"
+        android:hint="Комментарий"
+        android:layout_height="20dp" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="-5dp"
+        app:icon="@android:drawable/ic_delete"
+        app:iconTint="#F31404" />
+</LinearLayout>
